@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Encuentas:Encuesta xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Encuentas="http://www.example.org/encuestas">
+  <modulos tema="datos personales">
+    <preguntas xsi:type="Encuentas:Abierta" enunciado="¿Cuál es su nombre?"/>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cuál es su edad?">
+      <opciones valor="18 años o mas"/>
+      <opciones valor="menos de 18 años"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿cual es su estado civil?">
+      <opciones valor="Casado"/>
+      <opciones valor="Soltero"/>
+      <opciones valor="Unión libre"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Hace cuanto vive con su pareja?">
+      <opciones valor="Menos de dos años"/>
+      <opciones valor="2 años o mas"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cual es su grado de escolaridad?">
+      <opciones valor="Bachiller" finEncuesta="true"/>
+      <opciones valor="Tecnico"/>
+      <opciones valor="Tecnólogo"/>
+      <opciones valor="Universitario"/>
+      <opciones valor="Postgrado"/>
+    </preguntas>
+  </modulos>
+  <modulos tema="ingresos">
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cuáles son sus ingresos mensuales?">
+      <opciones valor="Menos de un salario mínimo"/>
+      <opciones valor="Un salario mínimo"/>
+      <opciones valor="Más de un salario mínimo"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Usted es un trabajador independiente?">
+      <opciones valor="Sí"/>
+      <opciones valor="No"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cuántos trabajos tiene?">
+      <opciones valor="1"/>
+      <opciones valor="2"/>
+      <opciones valor="Más de 2"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Multiple" enunciado="Su/s contrato/s es/son">
+      <opciones valor="A término fijo"/>
+      <opciones valor="Prestación de servicios"/>
+      <opciones valor="A término indefinido"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cotiza salud y pensión?">
+      <opciones valor="Si"/>
+      <opciones valor="No"/>
+    </preguntas>
+  </modulos>
+  <modulos tema="universitario">
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cuántos años estudió en la universidad?">
+      <opciones valor="4 años"/>
+      <opciones valor="Más de 4 años y menos de 8"/>
+      <opciones valor="8 años o más"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Multiple" enunciado="Estudió en una universidad">
+      <opciones valor="Pública"/>
+      <opciones valor="Privada"/>
+      <opciones valor="Privada y pública"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Usted pagó?">
+      <opciones valor="Menos de un millón"/>
+      <opciones valor="Más de un millón y menos de 4 millones"/>
+      <opciones valor="Más de 4 millones"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Usted terminó todos sus estudios?">
+      <opciones valor="Si"/>
+      <opciones valor="No"/>
+    </preguntas>
+    <preguntas xsi:type="Encuentas:Abierta" enunciado="¿Cuál es el nombre de su universidad?"/>
+  </modulos>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.1/@opciones.0" hacia="//@modulos.0/@preguntas.2"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.1/@opciones.1" hacia="//@modulos.0/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.0" hacia="//@modulos.0/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.1" hacia="//@modulos.0/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.2" hacia="//@modulos.0/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.3/@opciones.0" hacia="//@modulos.0/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.3/@opciones.1" hacia="//@modulos.0/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.0/@opciones.0" hacia="//@modulos.1/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.0/@opciones.1" hacia="//@modulos.1/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.0/@opciones.2" hacia="//@modulos.1/@preguntas.2"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.1/@opciones.1" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.2/@opciones.0" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.2/@opciones.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.2/@opciones.2" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.1/@opciones.0" hacia="//@modulos.1/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.3/@opciones.1" hacia="//@modulos.1/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.0" hacia="//@modulos.2/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.1" hacia="//@modulos.2/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.2" hacia="//@modulos.2/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.1/@opciones.1" hacia="//@modulos.2/@preguntas.2"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.1/@opciones.0" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.1/@opciones.2" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.2/@opciones.0" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.2/@opciones.1" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.2/@opciones.2" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.3/@opciones.0" hacia="//@modulos.2/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.3/@opciones.1" hacia="//@modulos.2/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.1" desde="//@modulos.2"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.1" desde="//@modulos.0"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.0"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.1"/>
+</Encuentas:Encuesta>
