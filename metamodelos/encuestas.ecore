@@ -44,7 +44,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="finEncuesta" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EntrePreguntaDirecto" eSuperTypes="#//Navegacion">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Desde" lowerBound="1" eType="#//Pregunta"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Hacia" lowerBound="1" eType="#//Pregunta"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="desde" lowerBound="1" eType="#//Pregunta"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hacia" lowerBound="1" eType="#//Pregunta"/>
   </eClassifiers>
 </ecore:EPackage>
