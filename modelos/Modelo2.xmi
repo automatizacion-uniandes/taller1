@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Encuentas:Encuesta xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Encuentas="http://www.example.org/encuestas" xsi:schemaLocation="http://www.example.org/encuestas ../metamodelos/encuestas.ecore">
+<Encuentas:Encuesta xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Encuentas="http://www.example.org/encuestas">
   <modulos tema="datos personales">
     <preguntas xsi:type="Encuentas:Abierta" enunciado="¿Cual es su nombre?"/>
     <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cual es su edad?">

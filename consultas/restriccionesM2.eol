@@ -1,0 +1,26 @@
+System.out.println("las preguntas que no cumplen la restriccion 2 son: ");
+muLessThan2().println();
+
+System.out.println("las preguntas que no cumplen la restriccion 3 son: ");
+openeNoMultiplePaths().println();
+
+System.out.println("Numero de nodos de terminación: ");
+endingNodes().println();
+
+//Selecciona las preguntas de seleccion multiple y multiple respuesta que tienen menos de una opcion de respuesta
+operation muLessThan2():Any{
+	return Pregunta.allInstances.select(e | e.isTypeOf(Multiple) and e.opciones.size()<2);
+}
+
+operation openeNoMultiplePaths():Any{
+	//seleccionamos todos los enunciados de salida para las preguntas habiertas
+	var listaDeSalidas = EntrePreguntaDirecto.allInstances.Desde.select(e | e.isTypeOf(Abierta)).enunciado;
+	//si hay algun punto se salida retorna true, indicando una bifurcacion para una pregunta unica.
+	return listaDeSalidas.exists(e | listaDeSalidas.includes(e)) ;
+}
+
+//seleccionamos todas las preguntas de multiple y unica respuesta y luego seleccionamos las que tienen la propiedad fin de encuesta.
+// al final contamos el numero de nodos de terminacion.
+operation endingNodes():Any{
+	return Pregunta.allInstances.select(e | (e.isTypeOf(Multiple) or e.isTypeOf(Unica))).opciones.flatten().select(m | m.finEncuesta = true).size();
+}
