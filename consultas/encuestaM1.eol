@@ -1,0 +1,7 @@
+System.out.println("total preguntas: ");
+numeroPreguntas().println();
+
+//Cuantas preguntas hay en la encuesta
+operation numeroPreguntas():Integer{
+	return Pregunta.allInstances.Size();
+}

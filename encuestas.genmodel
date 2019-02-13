@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/TallerSemana1/src" modelPluginID="TallerSemana1"
+    modelName="Encuestas" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>encuestas.ecore</foreignModel>
+  <genPackages prefix="Encuestas" disposableProviderFactory="true" ecorePackage="encuestas.ecore#/">
+    <genClasses ecoreClass="encuestas.ecore#//Encuesta">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute encuestas.ecore#//Encuesta/nombre"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference encuestas.ecore#//Encuesta/modulos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference encuestas.ecore#//Encuesta/navegacion"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//Modulo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute encuestas.ecore#//Modulo/tema"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference encuestas.ecore#//Modulo/preguntas"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//Pregunta">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute encuestas.ecore#//Pregunta/enunciado"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference encuestas.ecore#//Pregunta/respuestas"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//Unica">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference encuestas.ecore#//Unica/opciones"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//Multiple">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference encuestas.ecore#//Multiple/opciones"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//Abierta"/>
+    <genClasses ecoreClass="encuestas.ecore#//Navegacion"/>
+    <genClasses ecoreClass="encuestas.ecore#//EntreModulo">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference encuestas.ecore#//EntreModulo/hacia"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference encuestas.ecore#//EntreModulo/desde"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//EntrePregunta">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference encuestas.ecore#//EntrePregunta/desde"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference encuestas.ecore#//EntrePregunta/hacia"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//Respuesta">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute encuestas.ecore#//Respuesta/valor"/>
+    </genClasses>
+    <genClasses ecoreClass="encuestas.ecore#//OpcionRespuesta">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute encuestas.ecore#//OpcionRespuesta/valor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute encuestas.ecore#//OpcionRespuesta/finEncuesta"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
