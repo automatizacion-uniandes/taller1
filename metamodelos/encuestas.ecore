@@ -13,7 +13,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="preguntas" lowerBound="1"
         upperBound="-1" eType="#//Pregunta" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Pregunta">
+  <eClassifiers xsi:type="ecore:EClass" name="Pregunta" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="enunciado" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="respuestasUsuario" upperBound="-1"
         eType="#//RespuestaUsuario" containment="true"/>
@@ -27,10 +27,10 @@
         upperBound="-1" eType="#//OpcionRespuesta" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Abierta" eSuperTypes="#//Pregunta"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Navegacion"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Navegacion" abstract="true"/>
   <eClassifiers xsi:type="ecore:EClass" name="EntreModulo" eSuperTypes="#//Navegacion">
     <eStructuralFeatures xsi:type="ecore:EReference" name="hacia" lowerBound="1" eType="#//Modulo"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="desde" lowerBound="1" eType="#//Modulo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="desde" lowerBound="1" eType="#//OpcionRespuesta"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EntrePregunta" eSuperTypes="#//Navegacion">
     <eStructuralFeatures xsi:type="ecore:EReference" name="desde" lowerBound="1" eType="#//OpcionRespuesta"/>
@@ -42,5 +42,9 @@
   <eClassifiers xsi:type="ecore:EClass" name="OpcionRespuesta">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="valor" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="finEncuesta" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EntrePreguntaDirecto" eSuperTypes="#//Navegacion">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Desde" lowerBound="1" eType="#//Pregunta"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Hacia" lowerBound="1" eType="#//Pregunta"/>
   </eClassifiers>
 </ecore:EPackage>
