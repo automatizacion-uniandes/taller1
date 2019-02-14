@@ -11,28 +11,32 @@ System.out.println("Numero de nodos de terminación: ");
 endingNodes().println();
 
 //Seleccionamos Todos los nodos de llegada
-operation nonNavegable():Any{
+operation nonNavegable():Boolean{
+	//todos los nodos de llegada 
 	var llegadas = Navegacion.allInstances.hacia.select(e | e.isKindOf(Pregunta)).enunciado;
-	//si todos los nodos de llegada estan referenciados, deben ser igual a la coleccion de preguntas.
-	var preguntas = Pregunta.allInstances.enunciado;
-	return llegadas.includesAll(preguntas);
+	//todas las preguntas
+	var preguntas = Pregunta.allInstances.select(p | p.esPrimera = false).enunciado;
+	//a todas las preguntas les quitamos los nodos de llegada
+	preguntas.removeAll(llegadas);
+	//si preguntas conserva nodos, quiere decir que no estan referenciados de llegada, indicando preguntas que no se llegan por la navegacion.
+	return preguntas.size() > 0;
 }
 
 
 //Selecciona las preguntas de seleccion multiple y multiple respuesta que tienen menos de una opcion de respuesta
-operation muLessThan2():Any{
-	return Pregunta.allInstances.select(e | e.isTypeOf(Multiple) and e.opciones.size()<2);
+operation muLessThan2():Boolean{
+	return Pregunta.allInstances.select(e | e.isTypeOf(Multiple) and e.opciones.size()<2).size() > 0;
 }
 
-operation openeNoMultiplePaths():Any{
-	//seleccionamos todos los enunciados de salida para las preguntas habiertas
+operation openeNoMultiplePaths():Boolean{
+	//seleccionamos todos los enunciados de salida para las preguntas abiertas
 	var listaDeSalidas = EntrePreguntaDirecto.allInstances.desde.select(e | e.isTypeOf(Abierta)).enunciado;
-	//si hay algun punto se salida retorna true, indicando una bifurcacion para una pregunta unica.
-	return listaDeSalidas.exists(e | listaDeSalidas.includes(e)) ;
+	//si hay algun punto se salida retorna true, indicando una bifurcacion para una pregunta unica
+	return listaDeSalidas.exists(e | listaDeSalidas.count(e) > 1);
 }
 
 //seleccionamos todas las preguntas de multiple y unica respuesta y luego seleccionamos las que tienen la propiedad fin de encuesta.
 // al final contamos el numero de nodos de terminacion.
-operation endingNodes():Any{
-	return Pregunta.allInstances.select(e | (e.isTypeOf(Multiple) or e.isTypeOf(Unica))).opciones.flatten().select(m | m.finEncuesta = true).size();
+operation endingNodes():Boolean{
+	return Pregunta.allInstances.select(e | (e.isTypeOf(Multiple) or e.isTypeOf(Unica))).opciones.flatten().select(m | m.finEncuesta = true).size() = 0;
 }
