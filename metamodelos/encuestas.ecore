@@ -17,6 +17,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="enunciado" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="respuestasUsuario" upperBound="-1"
         eType="#//RespuestaUsuario" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="esPrimera" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="false"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Unica" eSuperTypes="#//Pregunta">
     <eStructuralFeatures xsi:type="ecore:EReference" name="opciones" lowerBound="1"

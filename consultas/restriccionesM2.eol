@@ -14,7 +14,8 @@ endingNodes().println();
 operation nonNavegable():Any{
 	var llegadas = Navegacion.allInstances.hacia.select(e | e.isKindOf(Pregunta)).enunciado;
 	//si todos los nodos de llegada estan referenciados, deben ser igual a la coleccion de preguntas.
-	return Pregunta.allInstances.enunciado.includesAll(llegadas);
+	var preguntas = Pregunta.allInstances.enunciado;
+	return llegadas.includesAll(preguntas);
 }
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Encuentas:Encuesta xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Encuentas="http://www.example.org/encuestas" xsi:schemaLocation="http://www.example.org/encuestas ../metamodelos/encuestas.ecore">
+<Encuentas:Encuesta xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Encuentas="http://www.example.org/encuestas">
   <modulos tema="datos personales">
     <preguntas xsi:type="Encuentas:Abierta" enunciado="¿Cual es su nombre?"/>
     <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cual es su edad?">
@@ -70,25 +70,25 @@
       <opciones valor="no" finEncuesta="true"/>
     </preguntas>
   </modulos>
-  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" Desde="//@modulos.0/@preguntas.0" Hacia="//@modulos.0/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.1/@opciones.0" hacia="//@modulos.0/@preguntas.2"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.1/@opciones.1" hacia="//@modulos.0/@preguntas.4"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.0" hacia="//@modulos.0/@preguntas.3"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.2" hacia="//@modulos.0/@preguntas.3"/>
-  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" Desde="//@modulos.0/@preguntas.3" Hacia="//@modulos.0/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.1" hacia="//@modulos.0/@preguntas.4"/>
   <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.1" desde="//@modulos.0/@preguntas.4/@opciones.4"/>
   <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.1" desde="//@modulos.0/@preguntas.4/@opciones.3"/>
   <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.0/@preguntas.4/@opciones.2"/>
   <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.0/@preguntas.4/@opciones.1"/>
-  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" Desde="//@modulos.1/@preguntas.0" Hacia="//@modulos.1/@preguntas.1"/>
-  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" Desde="//@modulos.1/@preguntas.1" Hacia="//@modulos.1/@preguntas.3"/>
-  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" Desde="//@modulos.1/@preguntas.3" Hacia="//@modulos.1/@preguntas.4"/>
-  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" Desde="//@modulos.1/@preguntas.4" Hacia="//@modulos.2/@preguntas.0"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.2" hacia="//@modulos.2/@preguntas.1"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.1" hacia="//@modulos.2/@preguntas.2"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.0" hacia="//@modulos.2/@preguntas.2"/>
-  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" Desde="//@modulos.2/@preguntas.1" Hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.2/@opciones.1" hacia="//@modulos.2/@preguntas.3"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.4/@opciones.0" hacia="//@modulos.2/@preguntas.4"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.3/@opciones.1" hacia="//@modulos.2/@preguntas.4"/>
