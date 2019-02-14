@@ -9,6 +9,7 @@
     <semanticResources>metamodelos/encuestas.ecore</semanticResources>
     <semanticResources>modelos/Modelo2.xmi</semanticResources>
     <semanticResources>modelos/Modelo3.xmi</semanticResources>
+    <semanticResources>modelos/Modelo4.xmi</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_N9L9wCWVEem4QL-riaKtsw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_UJ5-sCWVEem4QL-riaKtsw" name="encuestas class diagram" repPath="#_UJyp8CWVEem4QL-riaKtsw">
