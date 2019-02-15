@@ -49,4 +49,6 @@ operation endingNodes():Boolean{
 }
 
 operation navigationPaths():Boolean {
+	return true;
+	
 }
