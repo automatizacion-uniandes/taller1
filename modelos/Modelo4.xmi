@@ -100,4 +100,10 @@
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.4/@opciones.3" hacia="//@modulos.2/@preguntas.0"/>
   <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.4/@opciones.4" hacia="//@modulos.2/@preguntas.0"/>
   <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" desde="//@modulos.2/@preguntas.4" hacia="//@modulos.1/@preguntas.0"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.1" desde="//@modulos.0/@preguntas.4/@opciones.1"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.1" desde="//@modulos.0/@preguntas.4/@opciones.2"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.0/@preguntas.4/@opciones.3"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.0/@preguntas.4/@opciones.4"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.1/@preguntas.3/@opciones.0"/>
+  <navegacion xsi:type="Encuentas:EntreModulo" hacia="//@modulos.2" desde="//@modulos.1/@preguntas.3/@opciones.2"/>
 </Encuentas:Encuesta>
