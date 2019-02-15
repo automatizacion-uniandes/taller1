@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Encuentas:Encuesta xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Encuentas="http://www.example.org/encuestas">
   <modulos tema="datos personales">
-    <preguntas
-        xsi:type="Encuentas:Abierta"
-        enunciado="¿Cual es su nombre?"
-        esPrimera="true"/>
-    <preguntas
-        xsi:type="Encuentas:Unica"
-        enunciado="¿Cual es su edad?">
-      <opciones
-          valor="18 años o mas"/>
-      <opciones
-          valor="menos de 18 años"/>
+    <preguntas xsi:type="Encuentas:Abierta" enunciado="¿Cual es su nombre?" esPrimera="true"/>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cual es su edad?">
+      <opciones valor="18 años o mas"/>
+      <opciones valor="menos de 18 años"/>
     </preguntas>
     <preguntas xsi:type="Encuentas:Unica" enunciado="¿cual es su estado civil?">
       <opciones valor="Casado"/>
@@ -31,16 +24,10 @@
     </preguntas>
   </modulos>
   <modulos tema="universitario">
-    <preguntas
-        xsi:type="Encuentas:Unica"
-        enunciado="¿Cuantos años estudio en la universidad?"
-        esPrimera="true">
-      <opciones
-          valor="4 años"/>
-      <opciones
-          valor="Mas de 4 años y menos de 8"/>
-      <opciones
-          valor="8 años o mas"/>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cuantos años estudio en la universidad?" esPrimera="true">
+      <opciones valor="4 años"/>
+      <opciones valor="Mas de 4 años y menos de 8"/>
+      <opciones valor="8 años o mas"/>
     </preguntas>
     <preguntas xsi:type="Encuentas:Multiple" enunciado="Estudio en una universidad:">
       <opciones valor="Publica"/>
@@ -59,16 +46,10 @@
     <preguntas xsi:type="Encuentas:Abierta" enunciado="¿Cual es el nombre de su universidad?"/>
   </modulos>
   <modulos tema="ingresos">
-    <preguntas
-        xsi:type="Encuentas:Unica"
-        enunciado="¿Cuales son sus ingresos mensuales?"
-        esPrimera="true">
-      <opciones
-          valor="menos de un salario minimo"/>
-      <opciones
-          valor="un salario minimo"/>
-      <opciones
-          valor="mas de un salario minimo"/>
+    <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cuales son sus ingresos mensuales?" esPrimera="true">
+      <opciones valor="menos de un salario minimo"/>
+      <opciones valor="un salario minimo"/>
+      <opciones valor="mas de un salario minimo"/>
     </preguntas>
     <preguntas xsi:type="Encuentas:Unica" enunciado="¿Cuantos trabajos tiene?">
       <opciones valor="1"/>
@@ -89,138 +70,38 @@
       <opciones valor="no" finEncuesta="true"/>
     </preguntas>
   </modulos>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.1/@opciones.0"
-      hacia="//@modulos.0/@preguntas.2"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.1/@opciones.1"
-      hacia="//@modulos.0/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.2/@opciones.0"
-      hacia="//@modulos.0/@preguntas.4"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.2/@opciones.1"
-      hacia="//@modulos.0/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.2/@opciones.2"
-      hacia="//@modulos.0/@preguntas.4"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.4/@opciones.0"
-      hacia="//@modulos.0/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.4/@opciones.1"
-      hacia="//@modulos.0/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.0/@opciones.0"
-      hacia="//@modulos.2/@preguntas.2"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.0/@opciones.1"
-      hacia="//@modulos.2/@preguntas.2"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.0/@opciones.2"
-      hacia="//@modulos.2/@preguntas.1"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.1/@opciones.0"
-      hacia="//@modulos.2/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.1/@opciones.1"
-      hacia="//@modulos.2/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.1/@opciones.2"
-      hacia="//@modulos.2/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.2/@opciones.0"
-      hacia="//@modulos.2/@preguntas.4"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.3/@opciones.1"
-      hacia="//@modulos.2/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.3/@opciones.1"
-      hacia="//@modulos.2/@preguntas.4"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.3/@opciones.1"
-      hacia="//@modulos.2/@preguntas.0"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.3/@opciones.2"
-      hacia="//@modulos.2/@preguntas.0"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.3/@opciones.3"
-      hacia="//@modulos.1/@preguntas.0"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.0/@preguntas.3/@opciones.4"
-      hacia="//@modulos.1/@preguntas.0"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.0/@opciones.0"
-      hacia="//@modulos.1/@preguntas.1"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.0/@opciones.1"
-      hacia="//@modulos.1/@preguntas.1"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.0/@opciones.2"
-      hacia="//@modulos.1/@preguntas.1"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.1/@opciones.0"
-      hacia="//@modulos.1/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.1/@opciones.1"
-      hacia="//@modulos.1/@preguntas.2"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.1/@opciones.2"
-      hacia="//@modulos.1/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.4/@opciones.0"
-      hacia="//@modulos.1/@preguntas.4"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.2/@preguntas.4/@opciones.1"
-      hacia="//@modulos.1/@preguntas.4"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.2/@opciones.0"
-      hacia="//@modulos.1/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.2/@opciones.1"
-      hacia="//@modulos.1/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"
-      desde="//@modulos.1/@preguntas.2/@opciones.2"
-      hacia="//@modulos.1/@preguntas.3"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePreguntaDirecto"
-      desde="//@modulos.1/@preguntas.4"
-      hacia="//@modulos.2/@preguntas.0"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePregunta"/>
-  <navegacion
-      xsi:type="Encuentas:EntrePreguntaDirecto"
-      desde="//@modulos.0/@preguntas.0"
-      hacia="//@modulos.0/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.1/@opciones.0" hacia="//@modulos.0/@preguntas.2"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.1/@opciones.1" hacia="//@modulos.0/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.0" hacia="//@modulos.0/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.1" hacia="//@modulos.0/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.2/@opciones.2" hacia="//@modulos.0/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.4/@opciones.0" hacia="//@modulos.0/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.4/@opciones.1" hacia="//@modulos.0/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.0" hacia="//@modulos.2/@preguntas.2"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.1" hacia="//@modulos.2/@preguntas.2"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.0/@opciones.2" hacia="//@modulos.2/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.1/@opciones.0" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.1/@opciones.1" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.1/@opciones.2" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.2/@opciones.0" hacia="//@modulos.2/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.3/@opciones.1" hacia="//@modulos.2/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.3/@opciones.1" hacia="//@modulos.2/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.3/@opciones.1" hacia="//@modulos.2/@preguntas.0"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.3/@opciones.2" hacia="//@modulos.2/@preguntas.0"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.3/@opciones.3" hacia="//@modulos.1/@preguntas.0"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.0/@preguntas.3/@opciones.4" hacia="//@modulos.1/@preguntas.0"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.0/@opciones.0" hacia="//@modulos.1/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.0/@opciones.1" hacia="//@modulos.1/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.0/@opciones.2" hacia="//@modulos.1/@preguntas.1"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.1/@opciones.0" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.1/@opciones.1" hacia="//@modulos.1/@preguntas.2"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.1/@opciones.2" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.4/@opciones.0" hacia="//@modulos.1/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.2/@preguntas.4/@opciones.1" hacia="//@modulos.1/@preguntas.4"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.2/@opciones.0" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.2/@opciones.1" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta" desde="//@modulos.1/@preguntas.2/@opciones.2" hacia="//@modulos.1/@preguntas.3"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" desde="//@modulos.1/@preguntas.4" hacia="//@modulos.2/@preguntas.0"/>
+  <navegacion xsi:type="Encuentas:EntrePregunta"/>
+  <navegacion xsi:type="Encuentas:EntrePreguntaDirecto" desde="//@modulos.0/@preguntas.0" hacia="//@modulos.0/@preguntas.1"/>
 </Encuentas:Encuesta>
