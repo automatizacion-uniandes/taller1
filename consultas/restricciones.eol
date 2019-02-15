@@ -10,6 +10,9 @@ openeNoMultiplePaths().println();
 System.out.print("cumple la restriccion 4: ");
 endingNodes().println();
 
+System.out.print("cumple la restriccion 5: ");
+navigationPaths().println();
+
 //Seleccionamos Todos los nodos de llegada
 operation nonNavegable():Boolean {
 	var result:Boolean;
@@ -43,4 +46,7 @@ operation openeNoMultiplePaths():Boolean {
 // al final contamos el numero de nodos de terminacion.
 operation endingNodes():Boolean{
 	return Pregunta.allInstances.select(e | (e.isTypeOf(Multiple) or e.isTypeOf(Unica))).opciones.flatten().select(m | m.finEncuesta = true).size() > 0;
+}
+
+operation navigationPaths():Boolean {
 }
