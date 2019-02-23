@@ -12,6 +12,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="tema" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="preguntas" lowerBound="1"
         upperBound="-1" eType="#//Pregunta" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodoinicio" lowerBound="1"
+        eType="#//NodoInicio" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Pregunta" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="enunciado" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -48,5 +50,9 @@
   <eClassifiers xsi:type="ecore:EClass" name="EntrePreguntaDirecto" eSuperTypes="#//Navegacion">
     <eStructuralFeatures xsi:type="ecore:EReference" name="desde" lowerBound="1" eType="#//Pregunta"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="hacia" lowerBound="1" eType="#//Pregunta"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NodoInicio">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pregunta" lowerBound="1"
+        eType="#//Pregunta"/>
   </eClassifiers>
 </ecore:EPackage>

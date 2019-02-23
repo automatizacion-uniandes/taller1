@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_N8EjcCWVEem4QL-riaKtsw" selectedViews="_N9L9wCWVEem4QL-riaKtsw _N9TSgCWVEem4QL-riaKtsw _N9T5kCWVEem4QL-riaKtsw _N9Xj8CWVEem4QL-riaKtsw" version="12.1.0.201708031200">
+  <viewpoint:DAnalysis uid="_N8EjcCWVEem4QL-riaKtsw" selectedViews="_N9L9wCWVEem4QL-riaKtsw _N9TSgCWVEem4QL-riaKtsw _N9T5kCWVEem4QL-riaKtsw _N9Xj8CWVEem4QL-riaKtsw" version="14.1.0.201810161215">
     <semanticResources>encuestas.genmodel</semanticResources>
     <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
     <semanticResources>NewOCLFile.ocl</semanticResources>
@@ -10,30 +10,30 @@
     <semanticResources>modelos/Modelo2.xmi</semanticResources>
     <semanticResources>modelos/Modelo3.xmi</semanticResources>
     <semanticResources>modelos/Modelo4.xmi</semanticResources>
-    <ownedViews xmi:type="viewpoint:DView" xmi:id="_N9L9wCWVEem4QL-riaKtsw">
+    <ownedViews xmi:type="viewpoint:DView" uid="_N9L9wCWVEem4QL-riaKtsw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_UJ5-sCWVEem4QL-riaKtsw" name="encuestas class diagram" repPath="#_UJyp8CWVEem4QL-riaKtsw">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_UJ5-sCWVEem4QL-riaKtsw" name="encuestas class diagram" repPath="#_UJ5XoCWVEem4QL-riaKtsw">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="encuestas.ecore#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_U6FRgC8kEemoFNlJ3OowwQ" name="Encuestas class diagram" repPath="#_U5pzsC8kEemoFNlJ3OowwQ">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_U6FRgC8kEemoFNlJ3OowwQ" name="Encuestas class diagram" repPath="#_U6BnIC8kEemoFNlJ3OowwQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="metamodelos/encuestas.ecore#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
-    <ownedViews xmi:type="viewpoint:DView" xmi:id="_N9TSgCWVEem4QL-riaKtsw">
+    <ownedViews xmi:type="viewpoint:DView" uid="_N9TSgCWVEem4QL-riaKtsw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']"/>
     </ownedViews>
-    <ownedViews xmi:type="viewpoint:DView" xmi:id="_N9T5kCWVEem4QL-riaKtsw">
+    <ownedViews xmi:type="viewpoint:DView" uid="_N9T5kCWVEem4QL-riaKtsw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Archetype']"/>
     </ownedViews>
-    <ownedViews xmi:type="viewpoint:DView" xmi:id="_N9Xj8CWVEem4QL-riaKtsw">
+    <ownedViews xmi:type="viewpoint:DView" uid="_N9Xj8CWVEem4QL-riaKtsw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Generation']"/>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram xmi:id="_UJ5XoCWVEem4QL-riaKtsw" name="encuestas class diagram" uid="_UJyp8CWVEem4QL-riaKtsw">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_UJ5XoSWVEem4QL-riaKtsw" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_UJ5XoiWVEem4QL-riaKtsw">
+  <diagram:DSemanticDiagram uid="_UJ5XoCWVEem4QL-riaKtsw" name="encuestas class diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UJ5XoSWVEem4QL-riaKtsw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_UJ5XoiWVEem4QL-riaKtsw">
         <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan">
           <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <centerLabelStyleDescription xmi:type="style:CenterLabelStyleDescription" xmi:id="_-x4QMSWfEem4QL-riaKtsw" showIcon="false" labelExpression="service:render">
@@ -65,7 +65,7 @@
         </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_UJ6lwCWVEem4QL-riaKtsw" source="GMF_DIAGRAMS">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_UJ6lwCWVEem4QL-riaKtsw" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_UJ6lwSWVEem4QL-riaKtsw" type="Sirius" element="_UJ5XoCWVEem4QL-riaKtsw" measurementUnit="Pixel">
         <children xmi:type="notation:Node" xmi:id="_qPUu8CWbEem4QL-riaKtsw" type="2003" element="_qPPPYCWbEem4QL-riaKtsw">
           <children xmi:type="notation:Node" xmi:id="_qPV9ECWbEem4QL-riaKtsw" type="5007"/>
@@ -433,361 +433,361 @@
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_qPPPYCWbEem4QL-riaKtsw" name="Encuesta" tooltipText="" outgoingEdges="_3UJ6YCWfEem4QL-riaKtsw _JCpbwCWoEem4QL-riaKtsw" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_qPPPYCWbEem4QL-riaKtsw" name="Encuesta" tooltipText="" outgoingEdges="_3UJ6YCWfEem4QL-riaKtsw _JCpbwCWoEem4QL-riaKtsw" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Encuesta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Encuesta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_WFY6UCWdEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_WFY6UCWdEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Nx-SoCWdEem4QL-riaKtsw" name="nombre : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Nx-SoCWdEem4QL-riaKtsw" name="nombre : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="encuestas.ecore#//Encuesta/nombre"/>
         <semanticElements xmi:type="ecore:EAttribute" href="encuestas.ecore#//Encuesta/nombre"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_WFZhYCWdEem4QL-riaKtsw" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_WFZhYCWdEem4QL-riaKtsw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_cGA1cCWcEem4QL-riaKtsw" name="Modulo" tooltipText="" outgoingEdges="_DlLnICWgEem4QL-riaKtsw" incomingEdges="_3UJ6YCWfEem4QL-riaKtsw _s6IAICXOEemXvKxdrRHhtA _u7gpECXOEemXvKxdrRHhtA" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_cGA1cCWcEem4QL-riaKtsw" name="Modulo" tooltipText="" outgoingEdges="_DlLnICWgEem4QL-riaKtsw" incomingEdges="_3UJ6YCWfEem4QL-riaKtsw _s6IAICXOEemXvKxdrRHhtA _u7gpECXOEemXvKxdrRHhtA" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Modulo"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Modulo"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_hG9KUCWdEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hG9KUCWdEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_fWZysCWdEem4QL-riaKtsw" name="tema : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_fWZysCWdEem4QL-riaKtsw" name="tema : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="encuestas.ecore#//Modulo/tema"/>
         <semanticElements xmi:type="ecore:EAttribute" href="encuestas.ecore#//Modulo/tema"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_hG-YcCWdEem4QL-riaKtsw" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_hG-YcCWdEem4QL-riaKtsw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_eVC40CWcEem4QL-riaKtsw" name="Pregunta" tooltipText="" outgoingEdges="_ujs0AC74EemeM4ONrUcwKw" incomingEdges="_DlLnICWgEem4QL-riaKtsw _UV8DMCXPEemXvKxdrRHhtA _BqjQcC72EemeM4ONrUcwKw _DNEMEC72EemeM4ONrUcwKw _EYxKMC72EemeM4ONrUcwKw" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_eVC40CWcEem4QL-riaKtsw" name="Pregunta" tooltipText="" outgoingEdges="_ujs0AC74EemeM4ONrUcwKw" incomingEdges="_DlLnICWgEem4QL-riaKtsw _UV8DMCXPEemXvKxdrRHhtA _BqjQcC72EemeM4ONrUcwKw _DNEMEC72EemeM4ONrUcwKw _EYxKMC72EemeM4ONrUcwKw" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Pregunta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Pregunta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_18acEC76EemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_18acEC76EemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_o1bR4CWdEem4QL-riaKtsw" name="enunciado : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_o1bR4CWdEem4QL-riaKtsw" name="enunciado : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="encuestas.ecore#//Pregunta/enunciado"/>
         <semanticElements xmi:type="ecore:EAttribute" href="encuestas.ecore#//Pregunta/enunciado"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_qaX2cCWdEem4QL-riaKtsw" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_qaX2cCWdEem4QL-riaKtsw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_iRzCQCWcEem4QL-riaKtsw" name="Unica" tooltipText="" outgoingEdges="_BqjQcC72EemeM4ONrUcwKw _B7asEC74EemeM4ONrUcwKw" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_iRzCQCWcEem4QL-riaKtsw" name="Unica" tooltipText="" outgoingEdges="_BqjQcC72EemeM4ONrUcwKw _B7asEC74EemeM4ONrUcwKw" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Unica"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Unica"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iRzpUCWcEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_iRzpUCWcEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_jWeLUCWcEem4QL-riaKtsw" name="Multiple" tooltipText="" outgoingEdges="_DNEMEC72EemeM4ONrUcwKw _4WKpEC73EemeM4ONrUcwKw" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_jWeLUCWcEem4QL-riaKtsw" name="Multiple" tooltipText="" outgoingEdges="_DNEMEC72EemeM4ONrUcwKw _4WKpEC73EemeM4ONrUcwKw" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Multiple"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Multiple"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_jWeyYCWcEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_jWeyYCWcEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_lCMtUCWcEem4QL-riaKtsw" name="Abierta" tooltipText="" outgoingEdges="_EYxKMC72EemeM4ONrUcwKw" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_lCMtUCWcEem4QL-riaKtsw" name="Abierta" tooltipText="" outgoingEdges="_EYxKMC72EemeM4ONrUcwKw" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Abierta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Abierta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_lCMtUSWcEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_lCMtUSWcEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_eFeg4CWeEem4QL-riaKtsw" name="Navegacion" tooltipText="" incomingEdges="_q1XT4CWeEem4QL-riaKtsw _sFBk8CWeEem4QL-riaKtsw _JCpbwCWoEem4QL-riaKtsw" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_eFeg4CWeEem4QL-riaKtsw" name="Navegacion" tooltipText="" incomingEdges="_q1XT4CWeEem4QL-riaKtsw _sFBk8CWeEem4QL-riaKtsw _JCpbwCWoEem4QL-riaKtsw" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Navegacion"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Navegacion"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_3gaWsC8AEemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3gaWsC8AEemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_hqA-oCWeEem4QL-riaKtsw" name="EntreModulo" tooltipText="" outgoingEdges="_q1XT4CWeEem4QL-riaKtsw _s6IAICXOEemXvKxdrRHhtA _u7gpECXOEemXvKxdrRHhtA" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_hqA-oCWeEem4QL-riaKtsw" name="EntreModulo" tooltipText="" outgoingEdges="_q1XT4CWeEem4QL-riaKtsw _s6IAICXOEemXvKxdrRHhtA _u7gpECXOEemXvKxdrRHhtA" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//EntreModulo"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//EntreModulo"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_HVEf0CXNEemXvKxdrRHhtA" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_HVEf0CXNEemXvKxdrRHhtA" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_j6MRgCWeEem4QL-riaKtsw" name="EntrePregunta" tooltipText="" outgoingEdges="_sFBk8CWeEem4QL-riaKtsw _SxcKkCXPEemXvKxdrRHhtA _UV8DMCXPEemXvKxdrRHhtA" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_j6MRgCWeEem4QL-riaKtsw" name="EntrePregunta" tooltipText="" outgoingEdges="_sFBk8CWeEem4QL-riaKtsw _SxcKkCXPEemXvKxdrRHhtA _UV8DMCXPEemXvKxdrRHhtA" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//EntrePregunta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//EntrePregunta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_j6M4kCWeEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_j6M4kCWeEem4QL-riaKtsw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_q1XT4CWeEem4QL-riaKtsw" sourceNode="_hqA-oCWeEem4QL-riaKtsw" targetNode="_eFeg4CWeEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q1XT4CWeEem4QL-riaKtsw" sourceNode="_hqA-oCWeEem4QL-riaKtsw" targetNode="_eFeg4CWeEem4QL-riaKtsw">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//EntreModulo"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//EntreModulo"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_HVIKMCXNEemXvKxdrRHhtA" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_HVIKMCXNEemXvKxdrRHhtA" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_HVIKMSXNEemXvKxdrRHhtA" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_HVIKMSXNEemXvKxdrRHhtA" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_HVIKMiXNEemXvKxdrRHhtA" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_HVIKMiXNEemXvKxdrRHhtA" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sFBk8CWeEem4QL-riaKtsw" sourceNode="_j6MRgCWeEem4QL-riaKtsw" targetNode="_eFeg4CWeEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_sFBk8CWeEem4QL-riaKtsw" sourceNode="_j6MRgCWeEem4QL-riaKtsw" targetNode="_eFeg4CWeEem4QL-riaKtsw">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//EntrePregunta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//EntrePregunta"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_sFBk8SWeEem4QL-riaKtsw" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_sFBk8SWeEem4QL-riaKtsw" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_sFBk8iWeEem4QL-riaKtsw" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_sFBk8iWeEem4QL-riaKtsw" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_sFBk8yWeEem4QL-riaKtsw" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_sFBk8yWeEem4QL-riaKtsw" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_3UJ6YCWfEem4QL-riaKtsw" name="[1..*] modulos" sourceNode="_qPPPYCWbEem4QL-riaKtsw" targetNode="_cGA1cCWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3UJ6YCWfEem4QL-riaKtsw" name="[1..*] modulos" sourceNode="_qPPPYCWbEem4QL-riaKtsw" targetNode="_cGA1cCWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//Encuesta/modulos"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//Encuesta/modulos"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-x4QMyWfEem4QL-riaKtsw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-x4QNCWfEem4QL-riaKtsw" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_-x4QMyWfEem4QL-riaKtsw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-x4QNCWfEem4QL-riaKtsw" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_-x4QNSWfEem4QL-riaKtsw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_-x4QNSWfEem4QL-riaKtsw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_DlLnICWgEem4QL-riaKtsw" name="[1..*] preguntas" sourceNode="_cGA1cCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_DlLnICWgEem4QL-riaKtsw" name="[1..*] preguntas" sourceNode="_cGA1cCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//Modulo/preguntas"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//Modulo/preguntas"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Fz9y4CWgEem4QL-riaKtsw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Fz9y4SWgEem4QL-riaKtsw" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Fz9y4CWgEem4QL-riaKtsw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Fz9y4SWgEem4QL-riaKtsw" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_Fz9y4iWgEem4QL-riaKtsw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_Fz9y4iWgEem4QL-riaKtsw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_JCpbwCWoEem4QL-riaKtsw" name="[1..*] navegacion" sourceNode="_qPPPYCWbEem4QL-riaKtsw" targetNode="_eFeg4CWeEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_JCpbwCWoEem4QL-riaKtsw" name="[1..*] navegacion" sourceNode="_qPPPYCWbEem4QL-riaKtsw" targetNode="_eFeg4CWeEem4QL-riaKtsw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//Encuesta/navegacion"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//Encuesta/navegacion"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_KRi30CWoEem4QL-riaKtsw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_KRi30SWoEem4QL-riaKtsw" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_KRi30CWoEem4QL-riaKtsw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_KRi30SWoEem4QL-riaKtsw" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_KRi30iWoEem4QL-riaKtsw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_KRi30iWoEem4QL-riaKtsw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_WupuYCXMEemXvKxdrRHhtA" name="Respuesta" tooltipText="" incomingEdges="_ujs0AC74EemeM4ONrUcwKw" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_WupuYCXMEemXvKxdrRHhtA" name="Respuesta" tooltipText="" incomingEdges="_ujs0AC74EemeM4ONrUcwKw" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Respuesta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Respuesta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_1oiaoC72EemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1oiaoC72EemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_zt1BcC72EemeM4ONrUcwKw" name="valor : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_zt1BcC72EemeM4ONrUcwKw" name="valor : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="encuestas.ecore#//Respuesta/valor"/>
         <semanticElements xmi:type="ecore:EAttribute" href="encuestas.ecore#//Respuesta/valor"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_1ojBsC72EemeM4ONrUcwKw" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_1ojBsC72EemeM4ONrUcwKw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_s6IAICXOEemXvKxdrRHhtA" name="[1..1] hacia" sourceNode="_hqA-oCWeEem4QL-riaKtsw" targetNode="_cGA1cCWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_s6IAICXOEemXvKxdrRHhtA" name="[1..1] hacia" sourceNode="_hqA-oCWeEem4QL-riaKtsw" targetNode="_cGA1cCWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//EntreModulo/hacia"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//EntreModulo/hacia"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_trCfsyXOEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_trCftCXOEemXvKxdrRHhtA" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_trCfsyXOEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_trCftCXOEemXvKxdrRHhtA" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_trCftSXOEemXvKxdrRHhtA" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_trCftSXOEemXvKxdrRHhtA" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_u7gpECXOEemXvKxdrRHhtA" name="[1..1] desde" sourceNode="_hqA-oCWeEem4QL-riaKtsw" targetNode="_cGA1cCWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_u7gpECXOEemXvKxdrRHhtA" name="[1..1] desde" sourceNode="_hqA-oCWeEem4QL-riaKtsw" targetNode="_cGA1cCWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//EntreModulo/desde"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//EntreModulo/desde"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_v5Iu8CXOEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_v5Iu8SXOEemXvKxdrRHhtA" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_v5Iu8CXOEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_v5Iu8SXOEemXvKxdrRHhtA" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_v5Iu8iXOEemXvKxdrRHhtA" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_v5Iu8iXOEemXvKxdrRHhtA" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SxcKkCXPEemXvKxdrRHhtA" name="[1..1] desde" sourceNode="_j6MRgCWeEem4QL-riaKtsw" targetNode="_t5G0UC73EemeM4ONrUcwKw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_SxcKkCXPEemXvKxdrRHhtA" name="[1..1] desde" sourceNode="_j6MRgCWeEem4QL-riaKtsw" targetNode="_t5G0UC73EemeM4ONrUcwKw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//EntrePregunta/desde"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//EntrePregunta/desde"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TwRKUCXPEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TwRKUSXPEemXvKxdrRHhtA" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TwRKUCXPEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TwRKUSXPEemXvKxdrRHhtA" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_TwRKUiXPEemXvKxdrRHhtA" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_TwRKUiXPEemXvKxdrRHhtA" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_UV8DMCXPEemXvKxdrRHhtA" name="[1..1] hacia" sourceNode="_j6MRgCWeEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UV8DMCXPEemXvKxdrRHhtA" name="[1..1] hacia" sourceNode="_j6MRgCWeEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//EntrePregunta/hacia"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//EntrePregunta/hacia"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Vpn4oCXPEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Vpn4oSXPEemXvKxdrRHhtA" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Vpn4oCXPEemXvKxdrRHhtA" description="_trCfsCXOEemXvKxdrRHhtA" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Vpn4oSXPEemXvKxdrRHhtA" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_Vpn4oiXPEemXvKxdrRHhtA" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_Vpn4oiXPEemXvKxdrRHhtA" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_BqjQcC72EemeM4ONrUcwKw" sourceNode="_iRzCQCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_BqjQcC72EemeM4ONrUcwKw" sourceNode="_iRzCQCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Unica"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Unica"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Bqnh4C72EemeM4ONrUcwKw" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Bqnh4C72EemeM4ONrUcwKw" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_Bqnh4S72EemeM4ONrUcwKw" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_Bqnh4S72EemeM4ONrUcwKw" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Bqnh4i72EemeM4ONrUcwKw" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Bqnh4i72EemeM4ONrUcwKw" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_DNEMEC72EemeM4ONrUcwKw" sourceNode="_jWeLUCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_DNEMEC72EemeM4ONrUcwKw" sourceNode="_jWeLUCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Multiple"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Multiple"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_DNEzIC72EemeM4ONrUcwKw" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DNEzIC72EemeM4ONrUcwKw" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_DNEzIS72EemeM4ONrUcwKw" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_DNEzIS72EemeM4ONrUcwKw" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_DNEzIi72EemeM4ONrUcwKw" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_DNEzIi72EemeM4ONrUcwKw" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_EYxKMC72EemeM4ONrUcwKw" sourceNode="_lCMtUCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_EYxKMC72EemeM4ONrUcwKw" sourceNode="_lCMtUCWcEem4QL-riaKtsw" targetNode="_eVC40CWcEem4QL-riaKtsw">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//Abierta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//Abierta"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_EYxxQC72EemeM4ONrUcwKw" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_EYxxQC72EemeM4ONrUcwKw" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_EYxxQS72EemeM4ONrUcwKw" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_EYxxQS72EemeM4ONrUcwKw" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_EYxxQi72EemeM4ONrUcwKw" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_EYxxQi72EemeM4ONrUcwKw" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_t5G0UC73EemeM4ONrUcwKw" name="OpcionRespuesta" tooltipText="" incomingEdges="_4WKpEC73EemeM4ONrUcwKw _B7asEC74EemeM4ONrUcwKw _SxcKkCXPEemXvKxdrRHhtA" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_t5G0UC73EemeM4ONrUcwKw" name="OpcionRespuesta" tooltipText="" incomingEdges="_4WKpEC73EemeM4ONrUcwKw _B7asEC74EemeM4ONrUcwKw _SxcKkCXPEemXvKxdrRHhtA" width="12" height="10">
       <target xmi:type="ecore:EClass" href="encuestas.ecore#//OpcionRespuesta"/>
       <semanticElements xmi:type="ecore:EClass" href="encuestas.ecore#//OpcionRespuesta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iiAxgC79EemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_iiAxgC79EemeM4ONrUcwKw" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_1d0i8C73EemeM4ONrUcwKw" name="valor : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_1d0i8C73EemeM4ONrUcwKw" name="valor : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="encuestas.ecore#//OpcionRespuesta/valor"/>
         <semanticElements xmi:type="ecore:EAttribute" href="encuestas.ecore#//OpcionRespuesta/valor"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_8_jPAC73EemeM4ONrUcwKw" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_8_jPAC73EemeM4ONrUcwKw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_fp578C79EemeM4ONrUcwKw" name="finEncuesta : EBoolean = false" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_fp578C79EemeM4ONrUcwKw" name="finEncuesta : EBoolean = false" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="encuestas.ecore#//OpcionRespuesta/finEncuesta"/>
         <semanticElements xmi:type="ecore:EAttribute" href="encuestas.ecore#//OpcionRespuesta/finEncuesta"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_iiBYkC79EemeM4ONrUcwKw" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_iiBYkC79EemeM4ONrUcwKw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_4WKpEC73EemeM4ONrUcwKw" name="[2..*] opciones" sourceNode="_jWeLUCWcEem4QL-riaKtsw" targetNode="_t5G0UC73EemeM4ONrUcwKw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4WKpEC73EemeM4ONrUcwKw" name="[2..*] opciones" sourceNode="_jWeLUCWcEem4QL-riaKtsw" targetNode="_t5G0UC73EemeM4ONrUcwKw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//Multiple/opciones"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//Multiple/opciones"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_5EaPIC73EemeM4ONrUcwKw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_5EaPIS73EemeM4ONrUcwKw" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5EaPIC73EemeM4ONrUcwKw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5EaPIS73EemeM4ONrUcwKw" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_5EaPIi73EemeM4ONrUcwKw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_5EaPIi73EemeM4ONrUcwKw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_B7asEC74EemeM4ONrUcwKw" name="[1..*] opciones" sourceNode="_iRzCQCWcEem4QL-riaKtsw" targetNode="_t5G0UC73EemeM4ONrUcwKw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_B7asEC74EemeM4ONrUcwKw" name="[1..*] opciones" sourceNode="_iRzCQCWcEem4QL-riaKtsw" targetNode="_t5G0UC73EemeM4ONrUcwKw">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//Unica/opciones"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//Unica/opciones"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_C6wpMC74EemeM4ONrUcwKw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_C6wpMS74EemeM4ONrUcwKw" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_C6wpMC74EemeM4ONrUcwKw" description="_-x4QMCWfEem4QL-riaKtsw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_C6wpMS74EemeM4ONrUcwKw" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_C6wpMi74EemeM4ONrUcwKw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_C6wpMi74EemeM4ONrUcwKw" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ujs0AC74EemeM4ONrUcwKw" name="[0..*] respuestas" sourceNode="_eVC40CWcEem4QL-riaKtsw" targetNode="_WupuYCXMEemXvKxdrRHhtA">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ujs0AC74EemeM4ONrUcwKw" name="[0..*] respuestas" sourceNode="_eVC40CWcEem4QL-riaKtsw" targetNode="_WupuYCXMEemXvKxdrRHhtA">
       <target xmi:type="ecore:EReference" href="encuestas.ecore#//Pregunta/respuestas"/>
       <semanticElements xmi:type="ecore:EReference" href="encuestas.ecore#//Pregunta/respuestas"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ujtbEy74EemeM4ONrUcwKw" description="_ujtbEC74EemeM4ONrUcwKw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ujtbFC74EemeM4ONrUcwKw" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ujtbEy74EemeM4ONrUcwKw" description="_ujtbEC74EemeM4ONrUcwKw" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ujtbFC74EemeM4ONrUcwKw" showIcon="false">
           <customFeatures>labelSize</customFeatures>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_ujtbFS74EemeM4ONrUcwKw" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_ujtbFS74EemeM4ONrUcwKw" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_UJ5XpCWVEem4QL-riaKtsw"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_UJ5XpCWVEem4QL-riaKtsw"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Archetype']/@ownedRepresentationExtensions[name='Entities%20With%20Archetypes']/@layers[name='Archetypes']"/>
     <target xmi:type="ecore:EPackage" href="encuestas.ecore#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_U6BnIC8kEemoFNlJ3OowwQ" name="Encuestas class diagram" uid="_U5pzsC8kEemoFNlJ3OowwQ">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_U6COMC8kEemoFNlJ3OowwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_U6COMS8kEemoFNlJ3OowwQ">
+  <diagram:DSemanticDiagram uid="_U6BnIC8kEemoFNlJ3OowwQ" name="Encuestas class diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_U6COMC8kEemoFNlJ3OowwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_U6COMS8kEemoFNlJ3OowwQ">
         <computedStyleDescriptions xmi:type="style:EdgeStyleDescription" xmi:id="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan">
           <strokeColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           <centerLabelStyleDescription xmi:type="style:CenterLabelStyleDescription" xmi:id="_XrGnoS8kEemoFNlJ3OowwQ" showIcon="false" labelExpression="service:render">
@@ -819,7 +819,7 @@
         </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_U6aBoC8kEemoFNlJ3OowwQ" source="GMF_DIAGRAMS">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_U6aBoC8kEemoFNlJ3OowwQ" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_U6aBoS8kEemoFNlJ3OowwQ" type="Sirius" element="_U6BnIC8kEemoFNlJ3OowwQ" measurementUnit="Pixel">
         <children xmi:type="notation:Node" xmi:id="_XrawsC8kEemoFNlJ3OowwQ" type="2003" element="_Xqim8C8kEemoFNlJ3OowwQ">
           <children xmi:type="notation:Node" xmi:id="_Xrb-0C8kEemoFNlJ3OowwQ" type="5007"/>
@@ -957,6 +957,15 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="_fkGiwS-pEem_NtgqnGtB6Q" fontName="Segoe UI" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fkGiwi-pEem_NtgqnGtB6Q" x="855" y="136" width="135" height="92"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_5gTkoDeBEemOcKekvKYC4w" type="2003" element="_5f3fwDeBEemOcKekvKYC4w">
+          <children xmi:type="notation:Node" xmi:id="_5gwQkDeBEemOcKekvKYC4w" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_5gxesDeBEemOcKekvKYC4w" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_5gxesTeBEemOcKekvKYC4w"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_5gxesjeBEemOcKekvKYC4w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5gTkoTeBEemOcKekvKYC4w" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5gTkojeBEemOcKekvKYC4w" x="136" y="336" width="120" height="100"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_U6aBoi8kEemoFNlJ3OowwQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_XrpaMC8kEemoFNlJ3OowwQ" type="4001" element="_XrFZgC8kEemoFNlJ3OowwQ" source="_XrawsC8kEemoFNlJ3OowwQ" target="_XrdM8C8kEemoFNlJ3OowwQ">
           <children xmi:type="notation:Node" xmi:id="_XrqBQC8kEemoFNlJ3OowwQ" type="6001">
@@ -992,18 +1001,18 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_XrwH4i8kEemoFNlJ3OowwQ" type="4001" element="_XrH1wC8kEemoFNlJ3OowwQ" source="_XrdM8C8kEemoFNlJ3OowwQ" target="_XrebEC8kEemoFNlJ3OowwQ">
           <children xmi:type="notation:Node" xmi:id="_XrwH5i8kEemoFNlJ3OowwQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwH5y8kEemoFNlJ3OowwQ" x="79" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwH5y8kEemoFNlJ3OowwQ" x="42" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Xrwu8C8kEemoFNlJ3OowwQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xrwu8S8kEemoFNlJ3OowwQ" x="31" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xrwu8S8kEemoFNlJ3OowwQ" x="17" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Xrwu8i8kEemoFNlJ3OowwQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xrwu8y8kEemoFNlJ3OowwQ" x="-56" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xrwu8y8kEemoFNlJ3OowwQ" x="-67" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrwH4y8kEemoFNlJ3OowwQ" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_XrwH5C8kEemoFNlJ3OowwQ" fontColor="7490599" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwH5S8kEemoFNlJ3OowwQ" points="[-1, 98, -241, -144]$[-1, 204, -241, -38]$[181, 204, -59, -38]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xrwu9C8kEemoFNlJ3OowwQ" id="(0.5,0.0)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwH5S8kEemoFNlJ3OowwQ" points="[1, 7, -209, -144]$[1, 77, -209, -74]$[139, 77, -71, -74]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xrwu9C8kEemoFNlJ3OowwQ" id="(0.8583333333333333,0.93)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xrwu9S8kEemoFNlJ3OowwQ" id="(0.5,1.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Xrwu9i8kEemoFNlJ3OowwQ" type="4001" element="_XrIc0y8kEemoFNlJ3OowwQ" source="_XrebEC8kEemoFNlJ3OowwQ" target="_Xrj6oy8kEemoFNlJ3OowwQ">
@@ -1232,7 +1241,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_NDqUIC-uEem_NtgqnGtB6Q" type="4001" element="_IdMUxC-tEem_NtgqnGtB6Q" source="_XriFcy8kEemoFNlJ3OowwQ" target="_Xrkhsy8kEemoFNlJ3OowwQ">
           <children xmi:type="notation:Node" xmi:id="_NDqUJC-uEem_NtgqnGtB6Q" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NDqUJS-uEem_NtgqnGtB6Q" x="-119" y="-36"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NDqUJS-uEem_NtgqnGtB6Q" x="-113" y="27"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_NDqUJi-uEem_NtgqnGtB6Q" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NDqUJy-uEem_NtgqnGtB6Q" x="-72" y="-10"/>
@@ -1246,433 +1255,498 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NDqUKi-uEem_NtgqnGtB6Q" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NDqUKy-uEem_NtgqnGtB6Q" id="(0.11363636363636363,0.13)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_KdZ-8DeCEemOcKekvKYC4w" type="4001" element="_KdDZoDeCEemOcKekvKYC4w" source="_XrdM8C8kEemoFNlJ3OowwQ" target="_5gTkoDeBEemOcKekvKYC4w">
+          <children xmi:type="notation:Node" xmi:id="_KdbNEDeCEemOcKekvKYC4w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KdbNETeCEemOcKekvKYC4w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KdcbMDeCEemOcKekvKYC4w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KdcbMTeCEemOcKekvKYC4w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KddCQDeCEemOcKekvKYC4w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KddCQTeCEemOcKekvKYC4w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KdZ-8TeCEemOcKekvKYC4w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KdZ-8jeCEemOcKekvKYC4w" fontColor="7490599" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KdZ-8zeCEemOcKekvKYC4w" points="[0, 0, -4, -74]$[0, 37, -4, -37]$[4, 37, 0, -37]$[4, 74, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KdeQYDeCEemOcKekvKYC4w" id="(0.3389830508474576,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KdeQYTeCEemOcKekvKYC4w" id="(0.7796610169491526,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_P9hYkDeCEemOcKekvKYC4w" type="4001" element="_P9UkQDeCEemOcKekvKYC4w" source="_5gTkoDeBEemOcKekvKYC4w" target="_XrebEC8kEemoFNlJ3OowwQ">
+          <children xmi:type="notation:Node" xmi:id="_P9h_oTeCEemOcKekvKYC4w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P9h_ojeCEemOcKekvKYC4w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P9h_ozeCEemOcKekvKYC4w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P9h_pDeCEemOcKekvKYC4w" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P9h_pTeCEemOcKekvKYC4w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P9h_pjeCEemOcKekvKYC4w" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_P9hYkTeCEemOcKekvKYC4w" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_P9hYkjeCEemOcKekvKYC4w" fontColor="7490599" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_P9h_oDeCEemOcKekvKYC4w" points="[0, 0, -170, 0]$[170, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P9h_pzeCEemOcKekvKYC4w" id="(1.0,0.47959183673469385)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P9imsDeCEemOcKekvKYC4w" id="(0.0,0.7653061224489796)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Xqim8C8kEemoFNlJ3OowwQ" name="Encuesta" tooltipText="" outgoingEdges="_XrFZgC8kEemoFNlJ3OowwQ _XrGnpi8kEemoFNlJ3OowwQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Xqim8C8kEemoFNlJ3OowwQ" name="Encuesta" tooltipText="" outgoingEdges="_XrFZgC8kEemoFNlJ3OowwQ _XrGnpi8kEemoFNlJ3OowwQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Encuesta"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Encuesta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XqlqQC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XqlqQC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Xq-EwC8kEemoFNlJ3OowwQ" name="nombre : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xq-EwC8kEemoFNlJ3OowwQ" name="nombre : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Encuesta/nombre"/>
         <semanticElements xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Encuesta/nombre"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Xq-r0C8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_Xq-r0C8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XqnfcC8kEemoFNlJ3OowwQ" name="Modulo" tooltipText="" outgoingEdges="_XrH1wC8kEemoFNlJ3OowwQ" incomingEdges="_XrFZgC8kEemoFNlJ3OowwQ _IdMUwC-tEem_NtgqnGtB6Q" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XqnfcC8kEemoFNlJ3OowwQ" name="Modulo" tooltipText="" outgoingEdges="_XrH1wC8kEemoFNlJ3OowwQ _KdDZoDeCEemOcKekvKYC4w" incomingEdges="_XrFZgC8kEemoFNlJ3OowwQ _IdMUwC-tEem_NtgqnGtB6Q" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Modulo"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Modulo"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XqnfcS8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XqnfcS8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Xq-r0S8kEemoFNlJ3OowwQ" name="tema : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xq-r0S8kEemoFNlJ3OowwQ" name="tema : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Modulo/tema"/>
         <semanticElements xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Modulo/tema"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Xq_58C8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_Xq_58C8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XqoGgC8kEemoFNlJ3OowwQ" name="Pregunta" tooltipText="" outgoingEdges="_XrIc0y8kEemoFNlJ3OowwQ" incomingEdges="_XrH1wC8kEemoFNlJ3OowwQ _XrMHMy8kEemoFNlJ3OowwQ _XrN8YC8kEemoFNlJ3OowwQ _XrQYoC8kEemoFNlJ3OowwQ _XrQ_sC8kEemoFNlJ3OowwQ _4qmtIC-pEem_NtgqnGtB6Q _FZCHkC-qEem_NtgqnGtB6Q" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XqoGgC8kEemoFNlJ3OowwQ" name="Pregunta" tooltipText="" outgoingEdges="_XrIc0y8kEemoFNlJ3OowwQ" incomingEdges="_XrH1wC8kEemoFNlJ3OowwQ _XrMHMy8kEemoFNlJ3OowwQ _XrN8YC8kEemoFNlJ3OowwQ _XrQYoC8kEemoFNlJ3OowwQ _XrQ_sC8kEemoFNlJ3OowwQ _4qmtIC-pEem_NtgqnGtB6Q _FZCHkC-qEem_NtgqnGtB6Q _P9UkQDeCEemOcKekvKYC4w" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Pregunta"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Pregunta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_GsOQUDADEem_NtgqnGtB6Q" iconPath="/org.eclipse.emf.ecoretools.design/icons/full/obj16/EClass_abstract.gif" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="228,228,228">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_GsOQUDADEem_NtgqnGtB6Q" iconPath="/org.eclipse.emf.ecoretools.design/icons/full/obj16/EClass_abstract.gif" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="228,228,228">
         <labelFormat>italic</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Xq_58S8kEemoFNlJ3OowwQ" name="enunciado : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xq_58S8kEemoFNlJ3OowwQ" name="enunciado : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Pregunta/enunciado"/>
         <semanticElements xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Pregunta/enunciado"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_XrAhAC8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_XrAhAC8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_QnveQDADEem_NtgqnGtB6Q" name="esPrimera : EBoolean = false" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_QnveQDADEem_NtgqnGtB6Q" name="esPrimera : EBoolean = false" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Pregunta/esPrimera"/>
         <semanticElements xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//Pregunta/esPrimera"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_QnveQTADEem_NtgqnGtB6Q" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_QnveQTADEem_NtgqnGtB6Q" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XqpUoC8kEemoFNlJ3OowwQ" name="Unica" tooltipText="" outgoingEdges="_XrJD5i8kEemoFNlJ3OowwQ _XrN8YC8kEemoFNlJ3OowwQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XqpUoC8kEemoFNlJ3OowwQ" name="Unica" tooltipText="" outgoingEdges="_XrJD5i8kEemoFNlJ3OowwQ _XrN8YC8kEemoFNlJ3OowwQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Unica"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Unica"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Xqp7sC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Xqp7sC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XqqiwC8kEemoFNlJ3OowwQ" name="Multiple" tooltipText="" outgoingEdges="_XrJq8y8kEemoFNlJ3OowwQ _XrQYoC8kEemoFNlJ3OowwQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XqqiwC8kEemoFNlJ3OowwQ" name="Multiple" tooltipText="" outgoingEdges="_XrJq8y8kEemoFNlJ3OowwQ _XrQYoC8kEemoFNlJ3OowwQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Multiple"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Multiple"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XqrJ0C8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XqrJ0C8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Xqrw4C8kEemoFNlJ3OowwQ" name="Abierta" tooltipText="" outgoingEdges="_XrQ_sC8kEemoFNlJ3OowwQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Xqrw4C8kEemoFNlJ3OowwQ" name="Abierta" tooltipText="" outgoingEdges="_XrQ_sC8kEemoFNlJ3OowwQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Abierta"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Abierta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Xqrw4S8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Xqrw4S8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Xqs_AC8kEemoFNlJ3OowwQ" name="Navegacion" tooltipText="" incomingEdges="_XrGnpi8kEemoFNlJ3OowwQ _XrRmwC8kEemoFNlJ3OowwQ _XrSN0C8kEemoFNlJ3OowwQ _zJbjkC-pEem_NtgqnGtB6Q" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Xqs_AC8kEemoFNlJ3OowwQ" name="Navegacion" tooltipText="" incomingEdges="_XrGnpi8kEemoFNlJ3OowwQ _XrRmwC8kEemoFNlJ3OowwQ _XrSN0C8kEemoFNlJ3OowwQ _zJbjkC-pEem_NtgqnGtB6Q" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Navegacion"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Navegacion"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_9yilYC-rEem_NtgqnGtB6Q" iconPath="/org.eclipse.emf.ecoretools.design/icons/full/obj16/EClass_abstract.gif" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="228,228,228">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_9yilYC-rEem_NtgqnGtB6Q" iconPath="/org.eclipse.emf.ecoretools.design/icons/full/obj16/EClass_abstract.gif" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="228,228,228">
         <labelFormat>italic</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XqtmEC8kEemoFNlJ3OowwQ" name="EntreModulo" tooltipText="" outgoingEdges="_XrRmwC8kEemoFNlJ3OowwQ _IdMUwC-tEem_NtgqnGtB6Q _IdMUxC-tEem_NtgqnGtB6Q" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XqtmEC8kEemoFNlJ3OowwQ" name="EntreModulo" tooltipText="" outgoingEdges="_XrRmwC8kEemoFNlJ3OowwQ _IdMUwC-tEem_NtgqnGtB6Q _IdMUxC-tEem_NtgqnGtB6Q" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntreModulo"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntreModulo"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XquNIC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XquNIC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XquNIS8kEemoFNlJ3OowwQ" name="EntrePregunta" tooltipText="" outgoingEdges="_XrLgIy8kEemoFNlJ3OowwQ _XrMHMy8kEemoFNlJ3OowwQ _XrSN0C8kEemoFNlJ3OowwQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XquNIS8kEemoFNlJ3OowwQ" name="EntrePregunta" tooltipText="" outgoingEdges="_XrLgIy8kEemoFNlJ3OowwQ _XrMHMy8kEemoFNlJ3OowwQ _XrSN0C8kEemoFNlJ3OowwQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePregunta"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePregunta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Xqu0MC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Xqu0MC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XqvbQC8kEemoFNlJ3OowwQ" name="RespuestaUsuario" tooltipText="" incomingEdges="_XrIc0y8kEemoFNlJ3OowwQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XqvbQC8kEemoFNlJ3OowwQ" name="RespuestaUsuario" tooltipText="" incomingEdges="_XrIc0y8kEemoFNlJ3OowwQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//RespuestaUsuario"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//RespuestaUsuario"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XqwCUC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XqwCUC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_XrBvIC8kEemoFNlJ3OowwQ" name="valor : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XrBvIC8kEemoFNlJ3OowwQ" name="valor : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//RespuestaUsuario/valor"/>
         <semanticElements xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//RespuestaUsuario/valor"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_XrBvIS8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_XrBvIS8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_XqwCUS8kEemoFNlJ3OowwQ" name="OpcionRespuesta" tooltipText="" incomingEdges="_XrJD5i8kEemoFNlJ3OowwQ _XrJq8y8kEemoFNlJ3OowwQ _XrLgIy8kEemoFNlJ3OowwQ _IdMUxC-tEem_NtgqnGtB6Q" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_XqwCUS8kEemoFNlJ3OowwQ" name="OpcionRespuesta" tooltipText="" incomingEdges="_XrJD5i8kEemoFNlJ3OowwQ _XrJq8y8kEemoFNlJ3OowwQ _XrLgIy8kEemoFNlJ3OowwQ _IdMUxC-tEem_NtgqnGtB6Q" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//OpcionRespuesta"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//OpcionRespuesta"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_XqwpYC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XqwpYC8kEemoFNlJ3OowwQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_XrCWMC8kEemoFNlJ3OowwQ" name="valor : EString" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XrCWMC8kEemoFNlJ3OowwQ" name="valor : EString" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//OpcionRespuesta/valor"/>
         <semanticElements xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//OpcionRespuesta/valor"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_XrC9QC8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_XrC9QC8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_XrC9QS8kEemoFNlJ3OowwQ" name="finEncuesta : EBoolean = false" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_XrC9QS8kEemoFNlJ3OowwQ" name="finEncuesta : EBoolean = false" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//OpcionRespuesta/finEncuesta"/>
         <semanticElements xmi:type="ecore:EAttribute" href="metamodelos/encuestas.ecore#//OpcionRespuesta/finEncuesta"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_XrDkUC8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
+        <ownedStyle xmi:type="diagram:BundledImage" uid="_XrDkUC8kEemoFNlJ3OowwQ" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrFZgC8kEemoFNlJ3OowwQ" name="[1..*] modulos" sourceNode="_Xqim8C8kEemoFNlJ3OowwQ" targetNode="_XqnfcC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrFZgC8kEemoFNlJ3OowwQ" name="[1..*] modulos" sourceNode="_Xqim8C8kEemoFNlJ3OowwQ" targetNode="_XqnfcC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Encuesta/modulos"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Encuesta/modulos"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrGnoy8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrGnpC8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrGnoy8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrGnpC8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrGnpS8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrGnpS8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrGnpi8kEemoFNlJ3OowwQ" name="[1..*] navegacion" sourceNode="_Xqim8C8kEemoFNlJ3OowwQ" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrGnpi8kEemoFNlJ3OowwQ" name="[1..*] navegacion" sourceNode="_Xqim8C8kEemoFNlJ3OowwQ" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Encuesta/navegacion"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Encuesta/navegacion"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrHOsC8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrHOsS8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrHOsC8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrHOsS8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrHOsi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrHOsi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrH1wC8kEemoFNlJ3OowwQ" name="[1..*] preguntas" sourceNode="_XqnfcC8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrH1wC8kEemoFNlJ3OowwQ" name="[1..*] preguntas" sourceNode="_XqnfcC8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Modulo/preguntas"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Modulo/preguntas"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrIc0C8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrIc0S8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrIc0C8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrIc0S8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrIc0i8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrIc0i8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrIc0y8kEemoFNlJ3OowwQ" name="[0..*] respuestasUsuario" sourceNode="_XqoGgC8kEemoFNlJ3OowwQ" targetNode="_XqvbQC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrIc0y8kEemoFNlJ3OowwQ" name="[0..*] respuestasUsuario" sourceNode="_XqoGgC8kEemoFNlJ3OowwQ" targetNode="_XqvbQC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Pregunta/respuestasUsuario"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Pregunta/respuestasUsuario"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrJD4y8kEemoFNlJ3OowwQ" description="_XrJD4C8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrJD5C8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrJD4y8kEemoFNlJ3OowwQ" description="_XrJD4C8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrJD5C8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrJD5S8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrJD5S8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrJD5i8kEemoFNlJ3OowwQ" name="[1..*] opciones" sourceNode="_XqpUoC8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrJD5i8kEemoFNlJ3OowwQ" name="[1..*] opciones" sourceNode="_XqpUoC8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Unica/opciones"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Unica/opciones"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrJq8C8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrJq8S8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrJq8C8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrJq8S8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrJq8i8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrJq8i8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrJq8y8kEemoFNlJ3OowwQ" name="[2..*] opciones" sourceNode="_XqqiwC8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrJq8y8kEemoFNlJ3OowwQ" name="[2..*] opciones" sourceNode="_XqqiwC8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Multiple/opciones"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Multiple/opciones"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrKSAC8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrKSAS8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrKSAC8kEemoFNlJ3OowwQ" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrKSAS8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrKSAi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrKSAi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrLgIy8kEemoFNlJ3OowwQ" name="[1..1] desde" sourceNode="_XquNIS8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrLgIy8kEemoFNlJ3OowwQ" name="[1..1] desde" sourceNode="_XquNIS8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePregunta/desde"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePregunta/desde"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrMHMC8kEemoFNlJ3OowwQ" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrMHMS8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrMHMC8kEemoFNlJ3OowwQ" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrMHMS8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrMHMi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrMHMi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrMHMy8kEemoFNlJ3OowwQ" name="[1..1] hacia" sourceNode="_XquNIS8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrMHMy8kEemoFNlJ3OowwQ" name="[1..1] hacia" sourceNode="_XquNIS8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePregunta/hacia"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePregunta/hacia"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrMuQC8kEemoFNlJ3OowwQ" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrMuQS8kEemoFNlJ3OowwQ" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrMuQC8kEemoFNlJ3OowwQ" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrMuQS8kEemoFNlJ3OowwQ" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_XrMuQi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_XrMuQi8kEemoFNlJ3OowwQ" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrN8YC8kEemoFNlJ3OowwQ" sourceNode="_XqpUoC8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrN8YC8kEemoFNlJ3OowwQ" sourceNode="_XqpUoC8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Unica"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Unica"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrPxkC8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrPxkC8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_XrPxkS8kEemoFNlJ3OowwQ" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_XrPxkS8kEemoFNlJ3OowwQ" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrPxki8kEemoFNlJ3OowwQ" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrPxki8kEemoFNlJ3OowwQ" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrQYoC8kEemoFNlJ3OowwQ" sourceNode="_XqqiwC8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrQYoC8kEemoFNlJ3OowwQ" sourceNode="_XqqiwC8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Multiple"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Multiple"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrQYoS8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrQYoS8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_XrQYoi8kEemoFNlJ3OowwQ" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_XrQYoi8kEemoFNlJ3OowwQ" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrQYoy8kEemoFNlJ3OowwQ" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrQYoy8kEemoFNlJ3OowwQ" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrQ_sC8kEemoFNlJ3OowwQ" sourceNode="_Xqrw4C8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrQ_sC8kEemoFNlJ3OowwQ" sourceNode="_Xqrw4C8kEemoFNlJ3OowwQ" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Abierta"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//Abierta"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrQ_sS8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrQ_sS8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_XrQ_si8kEemoFNlJ3OowwQ" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_XrQ_si8kEemoFNlJ3OowwQ" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrQ_sy8kEemoFNlJ3OowwQ" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrQ_sy8kEemoFNlJ3OowwQ" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrRmwC8kEemoFNlJ3OowwQ" sourceNode="_XqtmEC8kEemoFNlJ3OowwQ" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrRmwC8kEemoFNlJ3OowwQ" sourceNode="_XqtmEC8kEemoFNlJ3OowwQ" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntreModulo"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntreModulo"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrRmwS8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrRmwS8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_XrRmwi8kEemoFNlJ3OowwQ" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_XrRmwi8kEemoFNlJ3OowwQ" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrRmwy8kEemoFNlJ3OowwQ" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrRmwy8kEemoFNlJ3OowwQ" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_XrSN0C8kEemoFNlJ3OowwQ" sourceNode="_XquNIS8kEemoFNlJ3OowwQ" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrSN0C8kEemoFNlJ3OowwQ" sourceNode="_XquNIS8kEemoFNlJ3OowwQ" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePregunta"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePregunta"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_XrSN0S8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrSN0S8kEemoFNlJ3OowwQ" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_XrSN0i8kEemoFNlJ3OowwQ" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_XrSN0i8kEemoFNlJ3OowwQ" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_XrSN0y8kEemoFNlJ3OowwQ" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrSN0y8kEemoFNlJ3OowwQ" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_fjzn0C-pEem_NtgqnGtB6Q" name="EntrePreguntaDirecto" tooltipText="" outgoingEdges="_zJbjkC-pEem_NtgqnGtB6Q _4qmtIC-pEem_NtgqnGtB6Q _FZCHkC-qEem_NtgqnGtB6Q" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_fjzn0C-pEem_NtgqnGtB6Q" name="EntrePreguntaDirecto" tooltipText="" outgoingEdges="_zJbjkC-pEem_NtgqnGtB6Q _4qmtIC-pEem_NtgqnGtB6Q _FZCHkC-qEem_NtgqnGtB6Q" width="12" height="10">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_fjzn0S-pEem_NtgqnGtB6Q" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_fjzn0S-pEem_NtgqnGtB6Q" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zJbjkC-pEem_NtgqnGtB6Q" sourceNode="_fjzn0C-pEem_NtgqnGtB6Q" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zJbjkC-pEem_NtgqnGtB6Q" sourceNode="_fjzn0C-pEem_NtgqnGtB6Q" targetNode="_Xqs_AC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto"/>
       <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zJbjkS-pEem_NtgqnGtB6Q" targetArrow="InputClosedArrow" routingStyle="tree">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zJbjkS-pEem_NtgqnGtB6Q" targetArrow="InputClosedArrow" routingStyle="tree">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zJbjki-pEem_NtgqnGtB6Q" showIcon="false">
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_zJbjki-pEem_NtgqnGtB6Q" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zJbjky-pEem_NtgqnGtB6Q" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zJbjky-pEem_NtgqnGtB6Q" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_4qmtIC-pEem_NtgqnGtB6Q" name="[1..1] desde" sourceNode="_fjzn0C-pEem_NtgqnGtB6Q" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_4qmtIC-pEem_NtgqnGtB6Q" name="[1..1] desde" sourceNode="_fjzn0C-pEem_NtgqnGtB6Q" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto/desde"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto/desde"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Bu-3sC-qEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Bu-3sS-qEem_NtgqnGtB6Q" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Bu-3sC-qEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Bu-3sS-qEem_NtgqnGtB6Q" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_Bu-3si-qEem_NtgqnGtB6Q" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_Bu-3si-qEem_NtgqnGtB6Q" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FZCHkC-qEem_NtgqnGtB6Q" name="[1..1] hacia" sourceNode="_fjzn0C-pEem_NtgqnGtB6Q" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_FZCHkC-qEem_NtgqnGtB6Q" name="[1..1] hacia" sourceNode="_fjzn0C-pEem_NtgqnGtB6Q" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto/hacia"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntrePreguntaDirecto/hacia"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_RhrUYC-qEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_RhrUYS-qEem_NtgqnGtB6Q" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_RhrUYC-qEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_RhrUYS-qEem_NtgqnGtB6Q" showIcon="false">
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_RhrUYi-qEem_NtgqnGtB6Q" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_RhrUYi-qEem_NtgqnGtB6Q" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_IdMUwC-tEem_NtgqnGtB6Q" name="[1..1] hacia" sourceNode="_XqtmEC8kEemoFNlJ3OowwQ" targetNode="_XqnfcC8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IdMUwC-tEem_NtgqnGtB6Q" name="[1..1] hacia" sourceNode="_XqtmEC8kEemoFNlJ3OowwQ" targetNode="_XqnfcC8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntreModulo/hacia"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntreModulo/hacia"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_IdMUwS-tEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_IdMUwi-tEem_NtgqnGtB6Q" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IdMUwS-tEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IdMUwi-tEem_NtgqnGtB6Q" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_IdMUwy-tEem_NtgqnGtB6Q" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_IdMUwy-tEem_NtgqnGtB6Q" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_IdMUxC-tEem_NtgqnGtB6Q" name="[1..1] desde" sourceNode="_XqtmEC8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IdMUxC-tEem_NtgqnGtB6Q" name="[1..1] desde" sourceNode="_XqtmEC8kEemoFNlJ3OowwQ" targetNode="_XqwCUS8kEemoFNlJ3OowwQ">
       <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntreModulo/desde"/>
       <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//EntreModulo/desde"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_IdMUxS-tEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_IdMUxi-tEem_NtgqnGtB6Q" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IdMUxS-tEem_NtgqnGtB6Q" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IdMUxi-tEem_NtgqnGtB6Q" showIcon="false">
           <customFeatures>labelSize</customFeatures>
           <labelFormat>bold</labelFormat>
         </centerLabelStyle>
-        <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_IdMUxy-tEem_NtgqnGtB6Q" showIcon="false" labelColor="39,76,114">
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_IdMUxy-tEem_NtgqnGtB6Q" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
         </endLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_5f3fwDeBEemOcKekvKYC4w" name="NodoInicio" tooltipText="" outgoingEdges="_P9UkQDeCEemOcKekvKYC4w" incomingEdges="_KdDZoDeCEemOcKekvKYC4w" width="12" height="10">
+      <target xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//NodoInicio"/>
+      <semanticElements xmi:type="ecore:EClass" href="metamodelos/encuestas.ecore#//NodoInicio"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5f4t4DeBEemOcKekvKYC4w" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_KdDZoDeCEemOcKekvKYC4w" name="[1..1] nodoinicio" sourceNode="_XqnfcC8kEemoFNlJ3OowwQ" targetNode="_5f3fwDeBEemOcKekvKYC4w">
+      <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Modulo/nodoinicio"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//Modulo/nodoinicio"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_MGjuEDeCEemOcKekvKYC4w" description="_XrGnoC8kEemoFNlJ3OowwQ" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_MGjuEjeCEemOcKekvKYC4w" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_MGjuETeCEemOcKekvKYC4w" labelSize="6" showIcon="false" labelColor="39,76,114"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_P9UkQDeCEemOcKekvKYC4w" name="[1..1] pregunta" sourceNode="_5f3fwDeBEemOcKekvKYC4w" targetNode="_XqoGgC8kEemoFNlJ3OowwQ">
+      <target xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//NodoInicio/pregunta"/>
+      <semanticElements xmi:type="ecore:EReference" href="metamodelos/encuestas.ecore#//NodoInicio/pregunta"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_QuzrnDeCEemOcKekvKYC4w" description="_XrK5EC8kEemoFNlJ3OowwQ" routingStyle="manhattan" strokeColor="0,0,0">
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_QuzrnjeCEemOcKekvKYC4w" showIcon="false">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_QuzrnTeCEemOcKekvKYC4w" labelSize="6" showIcon="false" labelColor="39,76,114"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_U6CONS8kEemoFNlJ3OowwQ"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_U6CONS8kEemoFNlJ3OowwQ"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
